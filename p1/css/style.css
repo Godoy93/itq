@@ -19,3 +19,29 @@ h1 {
 	font-family: Arial, Helvetica, sans-serif;
 	color: #8BC34A;
 }
+
+/*Número 4; SelectorID, remplazado por la de clase
+#topbar {
+	background-color: pink;
+}
+
+don't repeat yourself (dry)
+*/
+
+.background-pink {
+	background-color: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
