@@ -1,0 +1,21 @@
+
+/*Número 1; selector universal*/
+
+/*
+* {
+	color: red;
+}
+*/
+
+/*Número 2; selector de elemento*/
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: orange;
+}
+
+/*Número 3; selector de clase */
+.encabezado {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #8BC34A;
+}
