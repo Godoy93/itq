@@ -2,10 +2,11 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>ITQ new's</title>
-  <link rel="stylesheet" href="css/estilos.css">
+  <title>ITQ new's</title> 
+  <link rel="stylesheet" href="css/estilos.css"> 
 </head>
 <body>
+
 	<header>
 		<figure id="logo">
 			<img src="img/logo.png">
@@ -20,43 +21,35 @@
 	</header>
 	<nav>
 		<ul>
-			<li>*</li>
+			<li id="flechita_nav">*</li>
 			<li>Python</li>
 			<li>HTML5</li>
 			<li>JavaScript</li>
 			<li>CSS3</li>
 			<li>Django</li>
-			<li>Publicar</li>
+			<li id="publicar_nav">Publicar</li>		
 		</ul>
 	</nav>
-	<section>
-		<article>
-			<figure>
+
+	<section id="contenido">
+		<article class="item">
+			<figure class="imagen_item">
 				<img src="img/imagen.jpg">
 			</figure>
-			<h2>
+			<h2 class="titulo_item">
 				<a href="">Título del post</a>
 			</h2>
-			<p>
-				Por <a href="">Memo Mogollan</a>
+			<p class="autor_item">
+				Por <a href="#">Memo Mogollan</a>
 			</p>
-			<p>
-				<a href="#">tag</a>
-				<span>Hace 5 minutos</span>
-				<a href="#">455</a>
-				<a href="#">*</a>
-			</p>
-			<p>
-				<a href="">+</a>
-				9999
-				<a href="">-</a>
+			<p class="datos_item">
+				<a class="tag_item" href="#">HTML5</a>
+				<span class="fecha_item">Hace 5 min</span>
+				<a class="comentarios_item" href="#">455</a>
+				<a class="guardar_item" href="#">*</a>
 			</p>
 		</article>
-		<footer>
-			<p>Powered by ITQ</p>
-			<p>www.itqnews.com 2015 ®</p>
-		</footer>
-
 	</section>
+
 </body>
 </html>

@@ -1,19 +1,21 @@
-a {
+a
+{
 	color: #DD4F24;
 }
-body {
-	background: #EFEFEF;
+body
+{
+	background: #E0E0E0;
 	color: #4C4C4C;
-	font-family: "PT Sans", Arial;
+	font-family: "PT Sans", Arial, Helvetica;
 	font-size: 16px;
 	margin: 0;
-
 }
 
-header {
+header
+{
 	background: #434343;
 	color: white;
-	padding: 0.5em;
+	padding:  0.5em;
 	text-align: left;
 }
 
@@ -37,19 +39,61 @@ header #avatar
 	float: right;
 }
 
-header #avatar img
-{
-	float: left;
-	width: 50px;
-}
-
 header #logo img
 {
 	width: 80px;
 }
 
-nav{
+nav
+{
 	background: #878787;
 	color: white;
-	font-size: 14px;
 }
+
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li
+{
+	display: inline-block;
+	margin: 0 1.2em 0 0;
+	vertical-align: top;
+}
+
+nav #flechita_nav
+{
+	background: #22BCE0;
+}
+
+nav #publicar_nav
+{
+	background: #DD4F24;
+	float: right;
+	margin-right: 0;
+}
+
+#contenido
+{
+	margin: 1em;
+}
+
+#contenido .datos_item .tag_item
+{
+	background: #22BCE0;
+	border-radius: 0.5em;
+	color: white;
+	padding: 0.2em 0.5em;
+	text-decoration: none;
+}
+
+#contenido .item
+{
+	border-bottom: 3px #22BCE0 solid;
+	background: white;
+}
+
+
